@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maranan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Courier, Brush Script, comic san;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:#6AA4B0;
+  color: Black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 70px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:#2B4560;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:#95DED6;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color:#2F6D80;
+  padding: 20px;
+}
+
+/* Main column */
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color:Ivory;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#2B4560;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="C:\Users\ROCEL\Documents\laika html\blog_post_header_2016_wave3.jpg">
+</div>
+
+<div class="navbar">
+  <a href="file:///C:/Users/ROCEL/Documents/laika%20html/Home.html">Home</a>
+  <a href="file:///C:/Users/ROCEL/Documents/laika%20html/about%20me.html">About Me</a>
+  <a href="file:///C:/Users/ROCEL/Documents/laika%20html/gallery.html" class="right">My Gallery</a>
+  <a href="file:///C:/Users/ROCEL/Documents/laika%20html/my%20work.html" class="right">My work</a>
+</div>
+
+<div class="row">
+  <div class="side">
+ 
+    <h1>Photo of me:</h1>
+   <img src="C:\Users\ROCEL\Documents\laika html\received_185175650952374.jpg">
+    <h2>Hi it's me MARANAN,LAIKA ACEL C.</h2>
+   
+
+   
+  </div>
+  <div class="main">
+    <h1>Information:</h1>
+<h3> Age:19 years old</h3>
+<h3>Birthday: November 28,2003</h3>
+    <h3>Address: Sta.Catalina Candelaria,Quezon</h3>
+<h3>Contact Number: 09956490631 </h3>
+<h3> Facebook Account: Laika Acel Cuarto Maranan</h3>
+<h3> Instagram Account: hiim_acel </h3>
+<h3>Course: Bachelor of Secondary Education Major in 
+Social Studies</h3>
+<h3>School: Tayabas Western Academy</h3>
+<h3>Religion: Iglesia Ni Cristo</h3>
+    <br>
+
+<h1> Too Much Information (TMI):</h1>
+<h3> Hobbies: Reading Colleen Hoover's Book</h3>
+<h3>        : Wasting my time scrolling in social media</h3>
+<h3>Sports: Volleyball</h3>
+<h3>Pet: 1 Cat and 1 dog</h3>
+<h3>Fan of: OhmPawat( thai actor) and Colleen Hoover( book creator)
+<h3> Inlove in: OCEAN and Nature</h3>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thankyou</h2>
+</div>
+
+</body>
+</html>
